@@ -1,5 +1,6 @@
 .mainNavigation {
 display: flex;
+flex: row;
 align-items: center;
 Padding: 10px
 }
