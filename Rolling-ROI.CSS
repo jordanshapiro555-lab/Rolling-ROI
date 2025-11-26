@@ -1,87 +1,15 @@
-#site-header{
-    -webkit-text-size-adjust: 100%;
-    --colour--green--500: #004452;
-    --colour--neutral--700: #777979;
-    --colour--orange--500: #ff4000;
-    --colour--mint--200: #e9fdf7;
-    --surface--primarywhite: #fff;
-    --colour--neon-yellow--500: #b0ff00;
-    --colour--orange--600: #bf3000;
-    --colour--green--600: #00333d;
-    --colour--neon-yellow--600: #84bf00;
-    --colour--green--400: #38828a;
-    --colour--neutral--0: #fff;
-    --colour--neutral--500: #edf2f2;
-    --colour--mint--300: #d3fbef;
-    --colour--mint--800: #2a3e38;
-    --colour--mint--500: #a8f7e0;
-    --colour--mint--700: #547c70;
-    --colour--green--200: #bfd0d3;
-    --colour--neutral--400: #f1f5f5;
-    --colour--blue--200: #bfc7cf;
-    --colour--blue--400: #405970;
-    --colour--blue--500: #002140;
-    --colour--purple--500: #c2b5f2;
-    --colour--orange--200: #ffcfbf;
-    --colour--mint--600: #7eb9a8;
-    --colour--orange--700: #802000;
-    --colour--orange--400: #ff7040;
-    --colour--green--300: #80a1a8;
-    --gap-heading-spacing: 10px;
-    --brighter-background-blue: 0px;
-    --colour--neon-green--600: #00b232;
-    --colour--purple--600: #9188b5;
-    --colour--neutral--1000: #000;
-    --colour--orange--300: #f2b8a1;
-    --colour--neon-green--200: #bffbd0;
-    --colour--neon-green--300: #80f6a0;
-    --colour--neon-green--400: #40f171;
-    --colour--neon-green--500: #00ed42;
-    --colour--neon-yellow--300: #d7ff80;
-    --colour--neon-yellow--400: #c4ff40;
-    --colour--purple--300: #e1daf9;
-    --colour--purple--400: #d1c7f5;
-    --colour--neutral--600: #b2b5b5;
-    --colour--purple--800: #312d3d;
-    --colour--blue--300: #80909f;
-    --colour--blue--600: #001930;
-    --colour--blue--700: #001120;
-    --colour--blue--800: #000810;
-    --colour--green--800: #001114;
-    --colour--green--700: #002229;
-    --colour--mint--400: #bef9e8;
-    --colour--neon-green--700: #007721;
-    --colour--neon-green--800: #003b11;
-    --colour--neon-yellow--700: #588000;
-    --colour--neon-yellow--200: #ebffbf;
-    --colour--neon-yellow--800: #2c4000;
-    --colour--neutral--800: #3b3d3d;
-    --colour--neutral--100: #f6f9f9;
-    --colour--orange--800: #401000;
-    --colour--pink--200: #fef5fb;
-    --colour--pink--500: #fcd6ed;
-    --colour--pink--800: #3f363b;
-    --colour--pink--300: #fdebf6;
-    --colour--pink--700: #7e6b77;
-    --colour--pink--400: #fde0f1;
-    --colour--pink--600: #bda0b2;
-    --colour--purple--700: #615b79;
-    --colour--purple--200: #f0edfc;
-    --header-background-blur: 0px;
-    color: #333;
-    font-family: Archivo,sans-serif;
-    font-size: 14px;
-    line-height: 20px;
-    box-sizing: border-box;
-    z-index: 101;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    background-color: #0000;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    position: fixed;
-    inset: 0% 0% auto;
-    overflow: visible;
-    width: 1920px;
+.mainNavigation {
+display: flex;
+align-items: center;
+Padding: 10px
+}
+
+.mainNavigationLink {
+padding: 0 15px
+}
+
+.mainNavigationButton {
+padding: 0 15px
+background-color: #002667
+color: #fff
 }
