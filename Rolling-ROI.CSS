@@ -1,9 +1,14 @@
+body {
+padding: 10px;
+}
+
 .mainNavigation {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px;
     width: 100%
+    height: 
 }
 
 .mainNavigationLink {
@@ -14,6 +19,7 @@
     padding: 0 15px;
     background-color: #002667;
     color: #fff;
+    height: 100%;
 }
 
 h1 {
