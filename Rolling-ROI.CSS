@@ -1,16 +1,16 @@
 .mainNavigation {
-display: flex;
-flex: row;
-align-items: center;
-Padding: 10px
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
 }
 
 .mainNavigationLink {
-padding: 0 15px
+    padding: 0 15px;
 }
 
 .mainNavigationButton {
-padding: 0 15px
-background-color: #002667
-color: #fff
+    padding: 0 15px;
+    background-color: #002667;
+    color: #fff;
 }
