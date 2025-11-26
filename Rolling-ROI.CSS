@@ -1,9 +1,8 @@
 .mainNavigation {
-Display: flex;
-Padding: 10px 20px 10px 20px
+    display: flex;
+    padding: 10px 20px;
 }
 
 h1 {
-color: #002667;
+    color: #002667;
 }
-
