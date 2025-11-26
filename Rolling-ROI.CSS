@@ -3,6 +3,10 @@
     padding: 10px 20px;
 }
 
+.mainNavigationLink {
+padding: 0 10px
+}
+
 h1 {
     color: #002667;
 }
