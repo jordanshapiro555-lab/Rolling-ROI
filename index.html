@@ -1,18 +1,179 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Rolling ROI Homepage</title>
-<link rel="Stylesheet" href="Rolling-ROI.CSS">
-</head> 
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Conversion Rate Optimisation — Example</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 <body>
-    <div class="mainNavigation">
-        <h2 class="mainNavigationLink">Home</h2>
-        <h2 class="mainNavigationLink">About us</h2>
-        <h2 class="mainNavigationLink">Our Services</h2>
-        <button class="mainNavigationButton">Let's talk</button>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Brand</a>
+
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mainNav">
+        <span class="sr-only">Toggle navigation</span>
+        ☰
+      </button>
+
+      <nav id="mainNav" class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#approach">Our approach</a></li>
+          <li><a href="#case-studies">Case studies</a></li>
+          <li><a href="#contact">Let's talk</a></li>
+        </ul>
+      </nav>
+
+      <a class="cta small-cta" href="#contact">Book a free consultation</a>
     </div>
-<h1>Get higher impact billboards for cheap</h1>
-<p>Increase brand awareness with region-specific advertising</p>
-    <button>Learn more</button>
+  </header>
+
+  <!-- Hero -->
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Conversion rate optimisation</h1>
+          <p class="lead">Convert more visitors into customers — data-led CRO combining research, testing and design to improve engagement and revenue.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#contact">Book a free consultation</a>
+            <a class="btn ghost" href="#services">Learn more</a>
+          </div>
+        </div>
+        <div class="hero-media" aria-hidden="true">
+          <!-- placeholder illustration -->
+          <div class="hero-box">[Hero image]</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Three feature cards -->
+    <section id="services" class="three-features container">
+      <h2 class="section-title">Guide every visitor towards the right action</h2>
+      <p class="section-sub">Create seamless user journeys that improve conversions.</p>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Optimise user journeys</h3>
+          <p>Structure pathways, reduce friction and guide visitors to the next step.</p>
+        </article>
+
+        <article class="card">
+          <h3>Improve site performance</h3>
+          <p>Increase speed, accessibility and usability to keep visitors engaged.</p>
+        </article>
+
+        <article class="card">
+          <h3>Make data-led decisions</h3>
+          <p>Use analytics and A/B testing to back every change with evidence.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Approach -->
+    <section id="approach" class="approach container">
+      <h2 class="section-title">Our approach</h2>
+      <p class="section-sub">Tailored CRO strategies for maximum impact.</p>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">01</div>
+          <h4>Analysis</h4>
+          <p>We analyse user journeys and identify bottlenecks and opportunities.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">02</div>
+          <h4>User-centric design</h4>
+          <p>Designs focus on the user to encourage conversion at every step.</p>
+        </div>
+
+        <div class="step">
+          <div class="step-number">03</div>
+          <h4>Continuous optimisation</h4>
+          <p>Ongoing testing and refinement to adapt to user behaviour.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- A/B testing / services explanation -->
+    <section class="ab-testing container">
+      <h3>Get definitive insights with A/B testing</h3>
+      <p>Test different variants on live traffic and make confident, evidence-backed decisions.</p>
+      <div class="ab-grid">
+        <div class="ab-card">
+          <h4>Evidence over instinct</h4>
+          <p>Decide based on real user behaviour, not assumptions.</p>
+        </div>
+        <div class="ab-card">
+          <h4>Smarter roll-outs</h4>
+          <p>Validate changes before launch to reduce risk.</p>
+        </div>
+        <div class="ab-card">
+          <h4>Faster growth</h4>
+          <p>Learn quickly and iterate for meaningful conversion gains.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="testimonial container">
+      <blockquote>
+        “They delivered a fantastic transformation of our ecommerce platform and significantly improved conversion rates.”
+        <cite>- David Knight, Former CEO</cite>
+      </blockquote>
+    </section>
+
+    <!-- FAQs -->
+    <section class="faqs container" id="faqs">
+      <h2 class="section-title">CRO FAQs</h2>
+      <div class="faq-grid">
+        <div class="faq">
+          <h4>What is conversion rate optimisation?</h4>
+          <p>Improving your website to increase the percentage of visitors who complete desired actions.</p>
+        </div>
+
+        <div class="faq">
+          <h4>Why is CRO important?</h4>
+          <p>It helps you get more value from existing traffic and boosts revenue without extra marketing spend.</p>
+        </div>
+
+        <div class="faq">
+          <h4>How long to see results?</h4>
+          <p>Some improvements are quick; meaningful results typically come from continuous testing over time.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section id="contact" class="contact-cta">
+      <div class="container contact-inner">
+        <div>
+          <h2>Got a project in mind?</h2>
+          <p>Let’s work together. Discuss your goals and get a tailored plan to improve conversions.</p>
+        </div>
+        <div>
+          <a class="btn primary large" href="mailto:hello@example.com">Get free expert advice</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-links">
+        <a href="#">About</a>
+        <a href="#">Case studies</a>
+        <a href="#">Insights</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="copyright">© <span id="year"></span> Example Company</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
